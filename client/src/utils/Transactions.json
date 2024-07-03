@@ -35,12 +35,6 @@
           "internalType": "uint256",
           "name": "timestamp",
           "type": "uint256"
-        },
-        {
-          "indexed": false,
-          "internalType": "string",
-          "name": "keyword",
-          "type": "string"
         }
       ],
       "name": "Transfer",
@@ -62,12 +56,8 @@
           "internalType": "string",
           "name": "message",
           "type": "string"
-        },
-        {
-          "internalType": "string",
-          "name": "keyword",
-          "type": "string"
         }
+       
       ],
       "name": "addToBlockchain",
       "outputs": [],
@@ -104,12 +94,8 @@
               "internalType": "uint256",
               "name": "timestamp",
               "type": "uint256"
-            },
-            {
-              "internalType": "string",
-              "name": "keyword",
-              "type": "string"
             }
+          
           ],
           "internalType": "struct Transactions.TransferStruct[]",
           "name": "",
